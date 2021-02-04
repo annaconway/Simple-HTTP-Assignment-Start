@@ -1,0 +1,31 @@
+{
+  "name": "Simple-HTTP-Assignment-Start",
+  "version": "1.0.0",
+  "engines": {
+    "node": "v14.15.1",
+    "npm": "6.14.9"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Tests complete\"",
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annaconway/Simple-HTTP-Assignment-Start.git"
+  },
+  "keywords": [],
+  "author": "Anna Conway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annaconway/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/annaconway/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
