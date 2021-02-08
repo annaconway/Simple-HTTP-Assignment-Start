@@ -17,3 +17,14 @@ const getPage2 = (request, response) => {
 
 module.exports.getIndex = getIndex;
 module.exports.getPage2 = getPage2;
+
+// In-class examples of other ways to write code
+//module.exports = {
+//getIndex: getIndex,
+//getPage2: getPage2
+//};
+//
+//module.exports = {
+//getIndex,
+//getPage2
+//};
